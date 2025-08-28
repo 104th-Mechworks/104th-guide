@@ -1,0 +1,91 @@
+dark:
+  name: MCDR Dark CT-4936
+  title: Battalion Commanding Officer
+  image_url: /img/author_img/dark.png
+  rank: Marshal Commander
+  page: true
+  socials:
+    discord: https://discord.com/users/484766198504882196
+
+shatterstorm:
+  name: BCDR Shatterstorm CT-9081
+  title: Army Commanding Officer
+  page: true
+  rank: Battalion Commander
+  image_url: /img/author_img/shatterstorm.png
+  socials:
+    discord: https://discord.com/users/238860328350384128
+
+104th-team:
+  name: 104th Battalion Team
+  title: 104th Battalion Milsim Team
+  rank: General
+  url: https://github.com/104th/104th-guide
+  image_url: /img/104th.png
+  page: true
+  socials:
+    github: 104th
+
+evo:
+  name: MAJ Evolution CT-31421
+  title: Head of Fleet Security
+  rank: Major
+  image_url: /img/author_img/evo.png
+  page: true
+  socials:
+    discord: https://discord.com/users/200309310100602881
+
+poiser:
+  name: WO Poiser CT-28332
+  title: Head of Art Team
+  rank: Warrant Officer
+  image_url: /img/author_img/poiser.png
+  page: true
+  socials:
+    discord: https://discord.com/users/544266137324617744
+
+entity:
+    name: WCDR Entity CT-22-880
+    title: SFC Executive Officer
+    rank: Wing Commander
+    image_url: /img/author_img/entity.png
+    page: true
+    socials:
+        discord: https://discord.com/users/558362033238704148
+
+snips:
+    name: COM Snips CT-22-881
+    title: SFC Commanding Officer
+    rank: Commodore
+    image_url: /img/author_img/snips.png
+    page: true
+    socials:
+        discord: https://discord.com/users/833332246156804106
+
+liveshot:
+    name: MAJ Liveshot CT-28839
+    title: Head of In-Game Standards
+    rank: Major
+    image_url: /img/author_img/liveshot.png
+    page: true
+    socials:
+        discord: https://discord.com/users/788455455995068428
+
+cypex:
+    name: AT Cypex A-68
+    title: C Troop Alpha ARC
+    rank: ARC Trooper
+    image_url: /img/author_img/cypex.png
+    page: true
+    socials:
+        discord: https://discord.com/users/746504755882491964
+
+
+trig:
+    name: exCDR Trig CT-12860
+    title: exPC Army Commanding Officer
+    rank: Commander
+    image_url: /img/author_img/trig.png
+    page: true
+    socials:
+        discord: https://discord.com/users/566606810455343133
