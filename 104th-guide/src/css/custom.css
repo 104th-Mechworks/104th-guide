@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #eff6ff;
   --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.2);
 }
+
+.alert--staffonly {
+  --ifm-alert-background-color: rgba(128, 90, 213, 0.25);
+  --ifm-alert-background-color-highlight: rgba(128, 90, 213, 0.15);
+  --ifm-alert-foreground-color: rgb(55, 0, 90);
+  --ifm-alert-border-color: #805ad5;
+}
+
+html[data-theme='dark'] .alert--staffonly {
+  --ifm-alert-background-color: rgba(139, 92, 246, 0.3);
+  --ifm-alert-background-color-highlight: rgba(167, 139, 250, 0.15);
+  --ifm-alert-foreground-color: rgb(240, 240, 255);
+  --ifm-alert-border-color: #a78bfa;
+}

@@ -1,0 +1,162 @@
+.container {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.table {
+  overflow-x: auto;
+}
+
+/* New inner width guard */
+.tableInner {
+  min-width: 980px; /* wider than typical phones to avoid squashing */
+}
+
+.headerRow {
+  display: grid;
+  grid-template-columns: 80px repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.spacer {}
+
+.colHeader {
+  text-align: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.colHeaderNaval { color: #d4d4d8; }
+.colHeaderStarfighter { color: #60a5fa; }
+.colHeaderArmy { color: #22c55e; }
+.colHeaderArc { color: #f009c9; }
+.colHeaderRc { color: #00dfff; }
+
+.categoryBlock {
+  margin-bottom: 1.5rem;
+}
+
+.categoryHeaderRow {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.categoryNameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryName {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.catFleet { color: #dc2626; }
+.catCommand { color: #ca8a04; }
+.catOfficer { color: #2563eb; }
+.catSnco { color: #16a34a; }
+.catNco { color: #65a30d; }
+.catBase { color: #a1a1aa; }
+
+.categoryDivider { height: 1px; }
+.categoryLine { height: 1px; width: 100%; }
+.lineFleet { background: #7f1d1d; }
+.lineCommand { background: #78350f; }
+.lineOfficer { background: #1e3a8a; }
+.lineSnco { background: #14532d; }
+.lineNco { background: #365314; }
+.lineBase { background: #52525b; }
+
+.row {
+  display: grid;
+  grid-template-columns: 80px repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.levelCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.cell { padding: 0 0.25rem; }
+
+.rankBox {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  border-width: 1px;
+  text-align: center;
+}
+
+.rankBoxEmpty { height: 3rem; width: 100%; }
+
+.rankCode {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+/* Branch color tokens */
+.textLight { color: #e5e7eb; }
+
+.bgNaval { background: #27272a; }
+.borderNaval { border-color: #3f3f46; }
+
+.bgStarfighter { background: #0b1636; }
+.borderStarfighter { border-color: #1e3a8a; }
+
+.bgArmy { background: #052e16; }
+.borderArmy { border-color: #064e3b; }
+
+.bgArc { background: rgba(240, 9, 201, 0.2); }
+.borderArc { border-color: rgba(240, 9, 201, 0.4); }
+
+.bgRc { background: rgba(0, 223, 255, 0.2); }
+.borderRc { border-color: rgba(0, 223, 255, 0.4); }
+
+.bgCommand { background: #451a03; }
+.borderCommand { border-color: #78350f; }
+
+/* Special ranks (red) */
+.bgSpecial { background: #3b0a0a; }
+.borderSpecial { border-color: #7f1d1d; }
+.textSpecial { color: #fecaca; }
+
+.footnote {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+} 

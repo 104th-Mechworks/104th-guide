@@ -1,0 +1,99 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+104th:
+  label: 104th Battalion
+  permalink: /104th
+  description: Updates related to the 104th Battalion
+
+training:
+  label: Training
+  permalink: /training
+  description: Training-related updates and procedures
+
+server:
+  label: Server
+  permalink: /server
+  description: Server updates and changes
+
+guide:
+  label: Guide
+  permalink: /guide
+  description: Guide-related updates and improvements
+
+battalion:
+  label: Battalion
+  permalink: /battalion
+  description: Battalion-related updates and news
+
+procedures:
+  label: Procedures
+  permalink: /procedures
+  description: Procedural updates and changes
+
+art:
+  label: Art Team
+  permalink: /art-team
+  description: Art Team related updates and changes
+
+operations:
+  label: Operations
+  permalink: /operations
+  description: Updates related to operation events
+
+rules:
+  label: Rules
+  permalink: /rules
+  description: Updates related to milsim rules and regulations
+
+kmc:
+  label: KMC and Quals
+  permalink: /kmc-and-quals
+  description: KMC and qual related updates and changes
+
+media:
+  label: Media
+  permalink: /media
+  description: Media-related updates and changes
+
+sf:
+  label: Special Forces
+  permalink: /special-forces
+  description: Updates and Announcements related to Special Forces
+
+sfc:
+  label: Starfighter Corps
+  permalink: /starfighter-corps
+  description: Updates and Announcements related to Starfighter Corps
+
+army:
+  label: Army
+  permalink: /army
+  description: Updates and Announcements related to the Army
+
+command:
+  label: Command
+  permalink: /command
+  description: Updates and Announcements related to Command Staff
+
+snco:
+  label: Senior NCO
+  permalink: /senior-nco
+  description: Docs and updates related to Senior NCOs

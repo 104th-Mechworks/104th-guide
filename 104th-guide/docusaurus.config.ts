@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: '104th Guide',
   tagline: 'Guide to the 104th Battalion Milsim',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/104th.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -41,6 +41,11 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
+          tags: '../data/tags.yml',
+          admonitions: {
+            keywords: ['staffonly'],
+            extendDefaults: true,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -52,7 +57,7 @@ const config: Config = {
           showReadingTime: true,
           blogTitle: '104th Battalion Updates',
           blogDescription: 'Latest updates and announcements from the 104th Battalion',
-          blogSidebarTitle: 'All Battalion Updates',
+          blogSidebarTitle: 'Battalion Updates',
           blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -62,6 +67,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          authorsMapPath: '../data/authors.yml',
+          tags: '../data/tags.yml',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,6 +79,21 @@ const config: Config = {
 
   plugins: [
     './plugins/docusaurus-plugin-author.js',
+    [
+    '@docusaurus/plugin-content-blog',
+    {
+      id: 'army-updates',
+      routeBasePath: 'army-updates', // URL path -> /army-updates
+      path: './army-updates',        // Folder with your blog content
+      blogTitle: 'Army Updates',
+      blogDescription: 'Updates specific to the Army branch',
+      blogSidebarTitle: 'All Army Updates',
+      blogSidebarCount: 'ALL',
+      showReadingTime: true,
+      authorsMapPath: '../data/authors.yml',
+      tags: '../data/tags.yml',
+    },
+  ],
   ],
 
   themes: [
@@ -104,9 +126,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/updates', label: 'Updates', position: 'left'},
+        {to: '/updates', label: 'Unit Updates', position: 'left'},
+        { to: '/army-updates', label: 'Army Updates', position: 'left' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
